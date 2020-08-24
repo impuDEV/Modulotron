@@ -1,2 +1,7 @@
 import './scss/index.scss'
-console.log('Working!!!!')
+import {Router} from "@core/routing/Router";
+
+new Router('#app', {
+    // modulotron: ModulotronPage
+})
+
