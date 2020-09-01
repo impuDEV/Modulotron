@@ -3,7 +3,7 @@ export class Page {
         this.params = params || Date.now().toString()
     }
 
-    getRoot() {
+    getRoot(components = []) {
         throw new Error('Method "getRoot" should be implemented')
     }
 
